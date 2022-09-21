@@ -1,4 +1,4 @@
-import Layout from "../composes/Layout"
+import Layout from "../components/Layout"
 import Image from "next/image"
 const Contact = () => {
     return (
@@ -17,11 +17,14 @@ const Contact = () => {
               />
           </div>
           <div className="mt-4">
+          <p className="font-bold mt-2">Name</p>
+            <p className="text-xs mt-2 text-gray-600">Junya Sakakitani</p>
+
             <p className="font-bold mt-2">Address</p>
             <p className="text-xs mt-2 text-gray-600">Tokyo Setagaya</p>
             <p className="font-bold mt-2">Email</p>
             <p className="text-xs mt-2 text-gray-600">sakajun0208@gmail.com</p>
-            <p className="font-bold mt-2">業種</p>
+            <p className="font-bold mt-2">Occupation</p>
             <p className="text-xs mt-2 text-gray-600">SE・システムエンジニア</p>
             <p className="font-bold mt-2">専門分野</p>
             <p className="text-xs mt-2 text-gray-600">農業・Web開発</p>
