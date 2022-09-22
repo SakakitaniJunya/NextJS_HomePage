@@ -27,6 +27,11 @@ export default function Layout({ children, title = "HP by Nextjs" }) {
                   Contact
                 </a>
               </Link>
+              <Link href="/knowledge-page">
+                <a className="text-gray-300 hover:bg-gray-700 px-3 py-2 rounded">
+                  Knowledge
+                </a>
+              </Link>
             </div>
           </div>
         </nav>
