@@ -17,17 +17,23 @@ const Contact = () => {
               />
           </div>
           <div className="mt-4">
-          <p className="font-bold mt-2">Name</p>
-            <p className="text-xs mt-2 text-gray-600">Junya Sakakitani</p>
-
+          <p className="font-bold mt-2 border-">Name</p>
+            <p className="text-xs mt-2 text-gray-600">榊谷　隼也</p>
+            <p className="font-bold mt-2">Company</p>
+            <p className="text-xs mt-2 text-gray-600">アルファテックス株式会社</p>
             <p className="font-bold mt-2">Address</p>
-            <p className="text-xs mt-2 text-gray-600">Tokyo Setagaya</p>
+            <p className="text-xs mt-2 text-gray-600">五反田</p>
             <p className="font-bold mt-2">Email</p>
             <p className="text-xs mt-2 text-gray-600">sakajun0208@gmail.com</p>
-            <p className="font-bold mt-2">Occupation</p>
+            <p className="font-bold mt-2">職種</p>
             <p className="text-xs mt-2 text-gray-600">SE・システムエンジニア</p>
-            <p className="font-bold mt-2">専門分野</p>
+            <p className="font-bold mt-2">主業務</p>
+            <p className="text-xs mt-2 text-gray-600">Webアプリケーション運用保守・小規模開発</p>
+            <p className="font-bold mt-2">趣味</p>
             <p className="text-xs mt-2 text-gray-600">農業・Web開発</p>
+            <p className="font-bold mt-2">興味がある分野</p>
+            <p className="text-xs mt-2 text-gray-600">Next.js・Django</p>
+
 
           </div>
           <div className="mt-6 flex justify-around">
