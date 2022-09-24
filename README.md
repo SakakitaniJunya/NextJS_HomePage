@@ -1,3 +1,25 @@
+//進捗
+課題はふたつ
+　・mapはできるが、中身が出てこない。
+　空の状態で、出力される。
+・json形式で、出力まではできたが、ループは回せない。
+　以上
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
