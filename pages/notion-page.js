@@ -4,13 +4,13 @@ import Notion from "../components/Notion";
 
 const Blog = ({ data }) => {
   return (
-    <Layout title="Notion">Blog page
-      <ui className="m-10">
+    <Layout title="Notion">
+
         {/* mapで一個一個展開 */}
         {data && data.map((post) =>
           <Notion key={post.params.id} notion={post.params}/>)}
 
-      </ui>
+
     </Layout>
   )
 }

@@ -10,6 +10,7 @@ const Post = ({ post }) => {
                         {post.title}
                     </span>
                 </Link>
+
         </div>
     )
 }
