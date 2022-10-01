@@ -2,6 +2,7 @@ import Layout from "../components/Layout";
 import {getAllNotion} from "../lib/notionapi";
 import Notion from "../components/Notion";
 
+
 const Blog = ({ data }) => {
   return (
     <Layout title="Notion">
