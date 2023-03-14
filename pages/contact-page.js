@@ -20,19 +20,19 @@ const Contact = () => {
           <p className="font-bold mt-2 border-">Name</p>
             <p className="text-xs mt-2 text-gray-600">榊谷　隼也</p>
             <p className="font-bold mt-2">Company</p>
-            <p className="text-xs mt-2 text-gray-600">アルファテックス株式会社</p>
+            <p className="text-xs mt-2 text-gray-600">アクセンチュア株式会社</p>
             <p className="font-bold mt-2">Address</p>
-            <p className="text-xs mt-2 text-gray-600">五反田</p>
+            <p className="text-xs mt-2 text-gray-600">世田谷区</p>
             <p className="font-bold mt-2">Email</p>
             <p className="text-xs mt-2 text-gray-600">sakajun0208@gmail.com</p>
             <p className="font-bold mt-2">職種</p>
-            <p className="text-xs mt-2 text-gray-600">SE・システムエンジニア</p>
+            <p className="text-xs mt-2 text-gray-600">Microsoft Software Developer</p>
             <p className="font-bold mt-2">主業務</p>
-            <p className="text-xs mt-2 text-gray-600">Webアプリケーション運用保守・小規模開発</p>
+            <p className="text-xs mt-2 text-gray-600">RESTful Web API, NextJS</p>
             <p className="font-bold mt-2">趣味</p>
-            <p className="text-xs mt-2 text-gray-600">農業・Web開発</p>
+            <p className="text-xs mt-2 text-gray-600">農業, アクアリウム, Web開発 </p>
             <p className="font-bold mt-2">興味がある分野</p>
-            <p className="text-xs mt-2 text-gray-600">Next.js・Django</p>
+            <p className="text-xs mt-2 text-gray-600">Next.js, MantineJS, MS Graph</p>
 
 
           </div>
