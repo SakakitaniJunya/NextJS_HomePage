@@ -32,6 +32,11 @@ export default function Layout({ children, title = "HP by Nextjs" }) {
                   Knowledge
                 </a>
               </Link>
+              <Link href="/qiita-page">
+                <a className="text-gray-300 hover:bg-gray-700 px-3 py-2 rounded">
+                  Qiita
+                </a>
+              </Link>
             </div>
           </div>
         </nav>
