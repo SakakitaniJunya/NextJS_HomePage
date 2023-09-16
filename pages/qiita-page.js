@@ -18,7 +18,7 @@ const Contact = () => {
     const [isFiltered, setIsFiltered] = useState(false);
   
     useEffect(() => {
-      const token = "bb7ae7059f42f7c2b07346a04056e5f9982766cb";
+      const token = process.env.NOTION_DATABASE_ID;;
       getUserPosts(token).then(data => {
         setPosts(data);
   
