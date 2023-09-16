@@ -18,8 +18,8 @@ const Contact = () => {
     const [isFiltered, setIsFiltered] = useState(false);
   
     useEffect(() => {
-      const token = process.env.Qiita_TOKEN;
-      getUserPosts(token).then(data => {
+        const token = process.env.QIITA_TOKEN;
+        getUserPosts(token).then(data => {
         setPosts(data);
   
         let allTags = {};
